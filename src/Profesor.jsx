@@ -4,7 +4,7 @@ import Context from "./context/Context";
 function Profesor() {
   const { alumno } = useContext(Context);
   const idioma = alumno[3].idioma;
-  const imagen = `../images/${alumno[idioma].foto}`;
+  const imagen = `../public/images/${alumno[idioma].foto}`;
   return (
     <div className="profesor">
       <h1>{alumno[idioma].boton1}:</h1>
