@@ -1,0 +1,37 @@
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.idiomas {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  width: 75px;
+  margin: 10px;
+}
+
+.botones {
+  text-align: center;
+}
+
+.botones button {
+  width: 150px;
+  background-color: teal;
+  border: 1px dotted black;
+  color: wheat;
+  margin: 20px;
+}
+
+.profesor,
+.ubicacion {
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: teal;
+  padding-bottom: 15px;
+  color: wheat;
+  margin: auto;
+}
