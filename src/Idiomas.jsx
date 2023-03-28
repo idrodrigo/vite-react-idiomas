@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Context from "./context/Context";
+import spain from '../public/images/spain.jpg'
 
 function Idiomas() {
   const { setAlumno } = useContext(Context);
@@ -25,7 +26,7 @@ function Idiomas() {
   return (
     <div className="idiomas">
       <div className="flag" onClick={cambio1}>
-        <img src="../public/images/spain.jpg" />
+        <img src={spain}/>
       </div>
       <div className="flag" onClick={cambio2}>
         <img src="../public/images/uk.png" />
