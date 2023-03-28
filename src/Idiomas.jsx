@@ -25,13 +25,13 @@ function Idiomas() {
   return (
     <div className="idiomas">
       <div className="flag" onClick={cambio1}>
-        <img src="../images/spain.jpg" />
+        <img src="../public/images/spain.jpg" />
       </div>
       <div className="flag" onClick={cambio2}>
-        <img src="../images/uk.png" />
+        <img src="../public/images/uk.png" />
       </div>
       <div className="flag" onClick={cambio3}>
-        <img src="../images/francia.png" />
+        <img src="../public/images/francia.png" />
       </div>
     </div>
   );
